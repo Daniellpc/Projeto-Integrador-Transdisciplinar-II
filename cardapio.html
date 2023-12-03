@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Café</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/logo1.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo1.png" alt="Logotipo Tasty Café">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="cardapio.html">CARDAPIO</a></li>                
+                <li><a href="cadastro.php">CADASTRAR</a></li>
+                <li><a href="entrar.php">ENTRAR</a></li>
+                
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!--Inicio da Página de Cardápio-->
+
+    <div class="container">
+        <div class="linha-produtos">
+            
+            <div class="corpoProduto">
+                <div class="imgProduto">
+                    <img src="img/bolo.png" alt="" class= "produtoMiniatura">                        
+                </div>
+                <div class="titulo">
+                    <p>Bolo de Chocolate</p>
+                    <h2>R$ 30,00</h2>
+                    <input type="hidden" name= "id_produto" value="">
+                    <input type="hidden" name= "valor" value="">
+                    <button type="submit" class="button" name="addcarrinho" onclick="location.href = 'usuario.php'" >Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            
+
+            
+            <div class="corpoProduto">
+                <div class="imgProduto">
+                    <img src="img/alfajor.png" alt="" class= "produtoMiniatura">                        
+                </div>
+                <div class="titulo">
+                    <p>Alfajor</p>
+                    <h2>R$ 5,99</h2>
+                    <input type="hidden" name= "id_produto" value="">
+                    <input type="hidden" name= "valor" value="">
+                    <button type="submit" class="button" name="addcarrinho" onclick="location.href = 'usuario.php'" >Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            
+
+            
+            <div class="corpoProduto">
+                <div class="imgProduto">
+                    <img src="img/torta.png" alt="" class= "produtoMiniatura">                        
+                </div>
+                <div class="titulo">
+                    <p>Torta de Morango</p>
+                    <h2>R$ 9,99</h2>
+                    <input type="hidden" name= "id_produto" value="">
+                    <input type="hidden" name= "valor" value="">
+                    <button type="submit" class="button" name="addcarrinho" onclick="location.href = 'usuario.php'">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            
+
+            
+            <div class="corpoProduto">
+                <div class="imgProduto">
+                    <img src="img/capuccino.png"alt="" class= "produtoMiniatura">                        
+                </div>
+                <div class="titulo">
+                    <p>Capuccino</p>
+                    <h2>R$ 4,99</h2>
+                    <input type="hidden" name= "id_produto" value="">
+                    <input type="hidden" name= "valor" value="">
+                    <button type="submit" class="button" name="addcarrinho" onclick="location.href = 'usuario.php'">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    
+<!------Início do Rodapé------->
+
+    
+
+    <footer>
+
+        <div class="rodape">
+        <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="cardapio.html">CARDAPIO</a></li>                
+                <li><a href="cadastro.php">CADASTRAR</a></li>
+                <li><a href="entrar.php">ENTRAR</a></li>
+                
+                
+            </ul>
+        </div>
+
+        <div class="rodape">
+            <p>Rua da Liberdade n 22 - Bairro Livre</p>
+            <p>Diadema - Sp - 09870 - 189</p>
+        </div>
+
+        <div class="rodape">
+            <p>Siga as nossas Redes Sociais</p>
+            <a href="#"><img src="img/facebook.png" alt="Facebook Tasty Café"></a>
+            <a href="#"><img src="img/instagram.png" alt="Instagram Tasty Café"></a>
+            <a href="#"><img src="img/youtube.png" alt="Youtube Tasty Café"></a>
+
+        </div>
+    </footer>
+
+<!----------Configurações do Javascript-------->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/cycle.js"></script>
+
+
+    
+</body>
+</html>
